@@ -25,7 +25,6 @@
             overflow-x: hidden;
         }
 
-        /* 🖼️ صورة خلفية الصفحة العلوية */
         .page-bg-overlay {
             position: fixed;
             top: 0;
@@ -38,7 +37,6 @@
             pointer-events: none;
         }
 
-        /* القلوب الطائرة بالخلفية */
         .heart-bg {
             position: fixed;
             top: 0;
@@ -70,7 +68,6 @@
             position: relative;
         }
 
-        /* 🔒 1. شاشة الباسورد */
         #login-screen {
             background: rgba(27, 13, 46, 0.85);
             border: 1px solid rgba(255, 102, 153, 0.25);
@@ -82,7 +79,6 @@
             margin-top: 30px;
         }
 
-        /* 🔴 صورة الأفاتار الدائرية فوق الباسورد */
         .avatar-box {
             width: 85px;
             height: 85px;
@@ -148,7 +144,6 @@
             gap: 8px;
         }
 
-        /* ⏳ 2. شاشة التحميل */
         #loader-screen {
             display: none;
             background: rgba(27, 13, 46, 0.95);
@@ -188,7 +183,6 @@
             color: #ff99c2;
         }
 
-        /* 💖 3. المحتوى الرئيسي */
         #main-content {
             display: none;
         }
@@ -228,7 +222,6 @@
             line-height: 1.5;
         }
 
-        /* كروت التواريخ */
         .info-box {
             background: rgba(27, 13, 46, 0.8);
             border: 1px solid rgba(255, 102, 153, 0.2);
@@ -260,7 +253,6 @@
             letter-spacing: 1px;
         }
 
-        /* العداد المباشر */
         .timer-card {
             background: rgba(27, 13, 46, 0.8);
             border: 1px solid rgba(255, 102, 153, 0.2);
@@ -571,9 +563,9 @@
 
     <div class="heart-bg" id="heartContainer"></div>
 
-    <!-- 🎵 تم تغيير رابط الأغنية للرابط المباشر من Google Drive -->
+    <!-- 🎵 رابط الأغنية المباشر المحدث -->
     <audio id="loveSong" loop preload="auto">
-        <source src="https://docs.google.com/uc?export=download&id=1riEyytavECkfWzh-WKGQralKjI6Ya8Gm" type="audio/mp3">
+        <source src="https://files.catbox.moe/8x3fvd.mp3" type="audio/mp3">
     </audio>
 
     <div class="container">
@@ -807,7 +799,6 @@
         }
 
         function startLiveCounter() {
-            // تاريخ بداية العلاقة: 30 مارس 2023
             const startDate = new Date('2023-03-30T00:00:00');
 
             setInterval(() => {
